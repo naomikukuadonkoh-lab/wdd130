@@ -5,7 +5,7 @@
   --shadow-color: gray;
   --aside-bg: #eee;
   --aside-text: #333;
-  --max-width: 600px;
+  --max-width: 640px;
   --img-width: 150px;
 }
 
@@ -16,9 +16,14 @@
 
 }
 
+body {
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
 nav {
   background-color: var(--primary-color);
-  padding: 20px
+  padding: 10px
 }
 
 nav a {
@@ -31,11 +36,29 @@ h1 {
   color: var(--primary-color);
 }
 
-
-main {
-  max-width: var(--max-width);
-  margin: 0 auto;
+aside {
+  position: relative;
+  width: 20rem;
+  text-align: center;
 }
+
+p {
+  margin: 1rem;
+}
+
+aside h2 {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+
+}
+
 
 main img {
   width: var(--img-width);
@@ -44,35 +67,11 @@ main img {
   padding: 2px;
   box-shadow: 0 0 30px var(--shadow-color);
   float: right;
-  margin: 0 0 1rem 1rem;
-
 }
 
-
-aside {
-  width: 20em;
-  margin: 1em;
-  border: 1px solid rgb(0, 0, 0, 0.2);
-  padding: 1em;
-  background-color: var(--aside-bg);
-  color: var(--aside-text);
-  text-align: center;
-  position: relative;
-}
-
-aside img {
-  width: var(--img-width);
-  height: auto;
-
-
-
-}
-
-aside h2 {
-  position: absolute;
-  top: 0px;
-  left: 130px;
-
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 p {
@@ -92,4 +91,8 @@ footer {
   padding: 1rem;
   background: #ddd;
   color: #000;
+}
+
+.indent {
+  padding: 2rem;
 }
