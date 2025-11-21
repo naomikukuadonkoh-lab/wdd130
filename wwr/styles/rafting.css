@@ -60,8 +60,12 @@ article {
   padding: 10px;
 }
 
-.socialmedia a {
+.socialmedia a img {
   text-decoration: none;
+  width: 40px;
+  height: auto;
+  display: inline;
+
 }
 
 .hero {
