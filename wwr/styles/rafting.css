@@ -6,7 +6,7 @@
   /* sea green */
   --white-color: #ffffff;
   /* white */
-  --accent1-color: #1e3f4c;
+  --accent1-color: #03090c;
   /* sky blue */
   --accent2-color: #FFA500;
   /* golden orange */
@@ -41,16 +41,39 @@ main,
 footer {
   width: 100%;
   margin: 50 auto;
+  padding: 0;
+  max-width: 840;
 
+}
+
+header {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--accent2-color);
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 h1,
 h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
-
+  font-size: x-large;
+  color: #FFA500;
 
 }
+
 
 nav,
 p,
@@ -58,6 +81,7 @@ section,
 article {
   margin: 0;
   padding: 10px;
+
 }
 
 .socialmedia a img {
@@ -93,4 +117,33 @@ h1 {
 .hero article img {
   float: right;
   width: 125px;
+}
+
+
+.hero {
+  position: relative;
+  /* REQUIRED for the overlay */
+}
+
+.hero img {
+  width: 100%;
+  display: block;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  background-color: var(--accent1-color);
+  padding: 5px;
+  border-radius: 20px;
+  opacity: 0.7;
+  color: #fff;
+}
+
+.hero article img {
+  float: right;
+  width: 120px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
