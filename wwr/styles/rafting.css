@@ -1,7 +1,6 @@
 :root {
-  /* --secondary-color: #2E8B57; */
   /* saddle brown */
-  /* --primary-color: #372C2E; */
+  --primary-color: #372C2E;
 
   /* sea green */
   --white-color: #ffffff;
@@ -20,10 +19,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: var(--body-font);
-  color: var(--accent2-color);
-}
+
 
 * {
   margin: 0;
@@ -60,6 +56,10 @@ header {
 header img {
   width: 100px;
   height: auto;
+}
+
+header nav a {
+  color: var(--white-color);
 }
 
 nav a {
