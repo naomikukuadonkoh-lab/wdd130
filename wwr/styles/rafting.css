@@ -1,5 +1,4 @@
 :root {
-
   /* sea green */
   --white-color: #ffffff;
   /* white */
@@ -18,13 +17,6 @@
 }
 
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
@@ -36,7 +28,6 @@ main,
 footer {
   width: 100%;
   margin: 0px auto;
-  padding: 0;
 
 }
 
@@ -44,7 +35,7 @@ header {
   color: var(--white-color);
   background-color: var(--accent1-color);
   display: grid;
-  grid-template-columns: (4, 1fr);
+  grid-template-columns: auto 1fr;
   align-items: center;
 
 }
@@ -66,7 +57,6 @@ nav a {
   font-weight: bold;
 
 }
-
 
 
 h1,
@@ -124,21 +114,6 @@ h1 {
   /* white text – make sure there is enough contrast with the background-color */
 }
 
-.hero article img {
-  float: right;
-  width: 125px;
-}
-
-
-.hero {
-  position: relative;
-  /* REQUIRED for the overlay */
-}
-
-.hero img {
-  width: 100%;
-  display: block;
-}
 
 .hero article {
   position: absolute;
