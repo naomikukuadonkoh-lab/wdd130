@@ -1,0 +1,46 @@
+form {
+  background-color: rgb(217, 214, 214);
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border-radius: .3rem;
+}
+
+.ExampleCode {
+  background-color: rgb(48, 47, 47);
+  color: white;
+  margin-left: 2rem;
+  margin-right: 15rem;
+  padding-left: 1rem;
+  padding: .5rem;
+}
+
+button {
+  background-color: rgb(4, 4, 95);
+  color: white;
+  border-radius: .5rem;
+  display: block;
+  padding: .5rem;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+  margin: .5rem;
+  padding: 1rem;
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+span,
+h1 {
+  color: rgb(4, 4, 95);
+}
