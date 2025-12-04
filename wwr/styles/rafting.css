@@ -65,9 +65,11 @@ h2 {
   font-size: x-large;
   color: #8f5100;
   text-align: center;
-
 }
 
+section p {
+  margin-top: 50px;
+}
 
 nav,
 p,
@@ -104,13 +106,13 @@ header nav {
 
 h1 {
   position: absolute;
-  top: 20px;
+  /* top: 20px; */
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
+  /* opacity: 0.7; */
+  /* background-color: var(--accent1-color); */
+  color: var(--accent2-color);
   /* white text – make sure there is enough contrast with the background-color */
 }
 
@@ -202,4 +204,125 @@ footer .socialmedia {
 
 footer img {
   width: 35px;
+}
+
+/* ============================================================
+   CONTACT PAGE —
+   ============================================================ */
+
+/* GENERAL SECTION LAYOUTS (reusable for multiple pages) */
+.section-center {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* CONTACT INFO SECTION */
+.contact-info {
+  text-align: center;
+}
+
+.contact-info iframe {
+  width: 100%;
+  max-width: 550px;
+  height: 300px;
+  border: 1px solid var(--accent1-color);
+  border-radius: 6px;
+}
+
+/* EMPLOYEE GRID (reuses a layout style similar to .adventure-gallery) */
+.employees {
+  background: #f3f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+
+}
+
+.employee-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.employees figure {
+  text-align: center;
+}
+
+.employees img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #ccc;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+/* CONTACT FORM CARD */
+.contact-form form {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: var(--white-color);
+  padding: 1.5rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: var(--accent2-color);
+  margin-top: 1rem;
+  display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: .7rem;
+  margin-top: .3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: var(--body-font);
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+/* FIELDSET STYLING (unique to contact page) */
+.contact-form fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+.contact-form fieldset legend {
+  color: var(--accent2-color);
+  padding: 0 .5rem;
+  font-weight: bold;
+}
+
+.contact-form fieldset label {
+  font-weight: normal;
+  margin: .4rem 0;
+}
+
+/* CONTACT FORM BUTTON */
+.contact-form button {
+  margin-top: 1.5rem;
+  padding: .8rem;
+  width: 100%;
+  font-size: 1rem;
+  background: var(--accent1-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: var(--accent2-color);
 }

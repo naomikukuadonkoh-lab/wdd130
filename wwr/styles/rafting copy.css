@@ -1,0 +1,155 @@
+/* -----------------------------
+   GLOBAL STYLES
+--------------------------------*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* -----------------------------
+ HEADER
+--------------------------------*/
+header {
+  background: #d8c4ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  padding: 6px 12px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* -----------------------------
+ CONTACT INFORMATION SECTION
+--------------------------------*/
+.contact-info {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.contact-info iframe {
+  width: 90%;
+  max-width: 600px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* -----------------------------
+ EMPLOYEE SECTION
+--------------------------------*/
+.employees {
+  background: #f6f6f6;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.employees figure {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.employees img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #ccc;
+}
+
+.employees figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* -----------------------------
+ CONTACT FORM SECTION
+--------------------------------*/
+.contact-form {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.contact-form form {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form fieldset {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.contact-form fieldset label {
+  display: block;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #ccc;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* -----------------------------
+ FOOTER
+--------------------------------*/
+footer {
+  background: #d8c4ef;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .socialmedia a {
+  margin: 0 10px;
+}

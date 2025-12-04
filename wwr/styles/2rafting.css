@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #ffffff;
+}
+
+/* HEADER */
+.top-header {
+  background: #d8c4ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  padding: 6px 12px;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+}
+
+/* COMPANY INFO */
+.company-info {
+  text-align: center;
+  padding: 25px 0;
+}
+
+/* CONTACT AREA */
+.contact-area {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.map {
+  width: 380px;
+  height: 300px;
+  background: #eee;
+  background-image: url("https://via.placeholder.com/380x300");
+}
+
+.contact-form {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+.checkbox {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* EMPLOYEE SECTION */
+.employee-section {
+  text-align: center;
+  padding: 30px;
+  background: #f6f6f6;
+}
+
+.employee-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.profile {
+  width: 120px;
+  height: 120px;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* FOOTER */
+.page-footer {
+  background: #d8c4ef;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 5px;
