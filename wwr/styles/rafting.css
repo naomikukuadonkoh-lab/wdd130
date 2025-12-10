@@ -192,6 +192,11 @@ footer img {
   width: 35px;
 }
 
+.article-title {
+  position: absolute;
+  left: -9999px;
+}
+
 /* ============================================================
    CONTACT PAGE
    ============================================================ */
@@ -337,3 +342,6 @@ footer img {
 .contact-form button:hover {
   background: var(--accent2-color);
 }
+
+
+/* ================================ */
