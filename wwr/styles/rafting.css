@@ -365,9 +365,9 @@ footer img {
   color: var(--white-color);
 }
 
-.cta p {
-  text-align: center;
-}
+/* .cta p { */
+/* text-align: center; */
+
 
 .cta a {
   display: block;
