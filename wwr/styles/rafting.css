@@ -4,7 +4,8 @@
   /* white */
   --accent1-color: #03090c;
   /* sky blue */
-  --accent2-color: #cb7504;
+  --accent2-color: #8f5100;
+  /* DARKER – passes accessibility */
   /* golden orange */
   --heading-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
@@ -199,6 +200,7 @@ footer img {
 .article-title {
   position: absolute;
   left: -9999px;
+  color: #fff;
 }
 
 /* ============================================================
